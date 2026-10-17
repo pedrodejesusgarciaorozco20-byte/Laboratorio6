@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Destinos naturales | Rutas del mundo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { background: #f4f6f8; color: #253044; }
+    .hero { background: linear-gradient(120deg, #dceeff, #f3e8ff); padding: 4rem 1rem; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.7rem); font-weight: 800; }
+    .card-img-top { height: 220px; object-fit: cover; }
+    .card { border: 0; overflow: hidden; }
+    footer { background: #212529; color: #fff; }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Rutas del mundo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuPrincipal">
+        <ul class="navbar-nav ms-auto"><li class="nav-item"><a class="nav-link active" href="pagina1.html">Página 1: Naturaleza</a></li><li class="nav-item"><a class="nav-link " href="pagina2.html">Página 2: Ciudades</a></li><li class="nav-item"><a class="nav-link " href="pagina3.html">Página 3: Playas</a></li></ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero text-center">
+    <div class="container">
+      <span class="badge text-bg-primary mb-3">Guía de viaje</span>
+      <h1>Descubre la naturaleza</h1>
+      <p class="lead mx-auto mt-3" style="max-width: 760px;">Explora paisajes impresionantes, respira aire fresco y encuentra lugares perfectos para desconectarte de la rutina.</p>
+      <a class="btn btn-primary btn-lg mt-2" href="#destinos">Ver destinos</a>
+      <a class="btn btn-outline-dark btn-lg mt-2 ms-2" href="index.html">Regresar a inicio</a>
+    </div>
+  </header>
+
+  <main class="container py-5">
+    <div class="alert alert-info" role="alert"><strong>Consejo:</strong> Lleva agua, usa calzado cómodo y respeta siempre el entorno natural.</div>
+    <section id="destinos" class="my-5">
+      <div class="text-center mb-4">
+        <h2 class="fw-bold">Lugares para inspirarte</h2>
+        <p class="text-secondary">Tres ideas para empezar a planear tu próxima aventura.</p>
+      </div>
+      <div class="row g-4"><div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=80" class="card-img-top" alt="Paisaje de montañas" loading="lazy">
+            <div class="card-body">
+              <h2 class="card-title h5">Montañas</h2>
+              <p class="card-text">Las montañas ofrecen rutas para caminar, vistas panorámicas y la oportunidad de disfrutar de la tranquilidad.</p>
+            </div>
+          </div>
+        </div><div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=900&q=80" class="card-img-top" alt="Sendero en un bosque" loading="lazy">
+            <div class="card-body">
+              <h2 class="card-title h5">Bosques</h2>
+              <p class="card-text">Los bosques son ideales para observar la biodiversidad, escuchar los sonidos de la naturaleza y recorrer senderos.</p>
+            </div>
+          </div>
+        </div><div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=900&q=80" class="card-img-top" alt="Cascada entre vegetación" loading="lazy">
+            <div class="card-body">
+              <h2 class="card-title h5">Cascadas</h2>
+              <p class="card-text">Una cascada puede convertirse en el punto central de una excursión y en un lugar excelente para tomar fotografías.</p>
+            </div>
+          </div>
+        </div></div>
+    </section>
+
+    <section class="bg-white rounded-4 p-4 p-md-5 shadow-sm my-5">
+      <h2 class="h3 fw-bold">Viajar con responsabilidad</h2>
+      <p>Viajar a espacios naturales nos recuerda la importancia de cuidar el planeta. Podemos ayudar evitando dejar basura, siguiendo los senderos señalados y respetando a los animales.</p>
+      <p>Antes de viajar, investiga las costumbres locales y prepara un plan flexible. Así podrás disfrutar de la experiencia y descubrir detalles que quizá no estaban en tu itinerario.</p>
+      <p>Recuerda que no necesitas recorrer todo en un solo día: a veces, los mejores recuerdos aparecen cuando te detienes a observar y disfrutar el lugar.</p>
+      <a class="btn btn-outline-primary" href="pagina2.html">Explorar ciudades →</a>
+      <a class="btn btn-secondary ms-2" href="index.html">Regresar a inicio</a>
+    </section>
+  </main>
+
+  <footer class="text-center py-4">
+    <div class="container">
+      <p class="mb-1">Rutas del mundo</p>
+      <small>Proyecto de práctica HTML, CSS y Bootstrap.</small>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
