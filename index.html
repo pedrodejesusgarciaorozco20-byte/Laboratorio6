@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACTIVIDAD 2 </title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f2fa;
+            color: #333;
+        }
+
+        nav {
+            background-color: #6c63ff;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #e0dcff;
+        }
+
+        main {
+            max-width: 1100px;
+            margin: 60px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 48px;
+            color: #6c63ff;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        img {
+            width: 80%;
+            max-width: 700px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px #00000020;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                gap: 20px;
+                padding: 15px 10px;
+            }
+
+            nav a {
+                font-size: 15px;
+            }
+
+            h1 {
+                font-size: 34px;
+            }
+
+            p {
+                font-size: 17px;
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="#pagina1">Página 1</a>
+        <a href="#pagina2">Página 2</a>
+        <a href="#pagina3">Página 3</a>
+    </nav>
+
+    <main id="pagina1">
+        <h1>Bienvenido a mi página web</h1>
+
+        <p>
+            Este es un ejemplo de una página web sencilla creada con HTML
+            y CSS. para lab 6
+        </p>
+
+        <img
+            src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80"
+            alt="Espacio de trabajo moderno"
+        >
+    </main>
+
+</body>
+</html>
